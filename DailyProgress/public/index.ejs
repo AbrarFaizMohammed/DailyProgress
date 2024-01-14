@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Progress</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+    <nav class="myNav">
+      <h1 class="pagetitle"><a href="/AddProgress">DAILY PROGRESS</a></h1>
+      <ul class="pages">
+        <li><a href="/">HOME</a></li>
+        <li><a href="/aboutUs">ABOUT US</a></li>
+        <li><a href="/contactUs">CONTACT US</a></li>
+      </ul>
+    </nav>
+  </header>
+    <main>
+     <div class="quotesBlock">
+      <video autoplay controls-"false" loop muted src="quotesbackground.mp4" id="quotebgvideo"></video>
+        <p id="quotetext">Whatever you do you have to keep moving forward.</p>
+     </div>
+    <div class="blogscontainer">
+     <%  for(var i=0; i<progressLists.length;i++) { %>
+         <h2 class="postheading" name="postheading"><%=progressLists[i].Title%></h2>
+         <p  name="postDescription"><%=progressLists[i].Description.substring(0, 100)%>...<a href="/posts/<%=progressLists[i].Title%>">Read more</a></button></p>
+         <% } %>
+    </div>   
+  </main>  
+  <footer>
+    <p class="footer-text">Made by curious Software Engineer "Abrar Faiz Mohammed" 🙂</p>
+ </footer>
+    <script src="script.js"></script>
+  </body> 
+</html>
