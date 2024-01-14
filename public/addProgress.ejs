@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="myNav">
+        <h1 class="pagetitle"><a href="/AddProgress">DAILY PROGRESS</a></h1>
+      <ul class="pages">
+        <li><a href="/">HOME</a></li>
+        <li><a href="/aboutUs">ABOUT US</a></li>
+        <li><a href="/contactUs">CONTACT US</a></li>
+      </ul>
+    </nav>
+     <form action="/AddProgress" method="post" class="addprogress-title">
+        <h1 >Let everyone know about Progress 🙂</h1>
+         <label for="postTitle">Title</label><br/>
+         <input type="text" id="postTitle" name="postTitle"><br/>
+         <label for="postdetails">Post</label><br/>
+         <textarea id="postdetails" name="postdescription" ></textarea><br/>
+         <button type="submit" class="publishbtn">Publish</button>
+     </form>
+  </body>
+</html>
