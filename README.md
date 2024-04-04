@@ -17,7 +17,7 @@
 <br />
 <div align="center">
   <a href="https://dailyprogress-9pw4.onrender.com/" target="_blank">
-    <img src="./favicon-16x16.png" width="80" height="80">
+    <img src="https://github.com/AbrarFaizMohammed/DailyProgress/blob/main/success.png" width="80" height="80">
   </a>
 
   <h1 align="center">DAILY PROGRESS</h1>
