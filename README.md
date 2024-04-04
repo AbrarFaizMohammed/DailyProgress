@@ -1,4 +1,3 @@
-
 <!-- PROJECT SHIELDS -->
 <a name="readme-top"></a>
 <!--
@@ -28,10 +27,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ### About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Welcome to Daily Progress, your go-to source for insightful and inspiring content that fuels your journey towards personal and professional growth. At Daily Progress, we believe in the power of continuous improvement and the transformative impact it can have on individuals and communities.
+
+https://github.com/AbrarFaizMohammed/DailyProgress/assets/131560669/f87411a3-11ae-4783-8899-e295decf9501
+
 
 ### Our Mission
 Our mission is to empower and motivate our readers to make daily strides towards a better version of themselves. We strive to be the catalyst for positive change, providing valuable insights, practical tips, and engaging content that aligns with your aspirations.
